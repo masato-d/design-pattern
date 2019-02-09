@@ -10,7 +10,7 @@ class Singleton
     {
     }
 
-    public static function getInstance()//: Singleton
+    public static function getInstance(): Singleton
     {
         if (self::$singleton == null) {
             self::$singleton = new Singleton();
