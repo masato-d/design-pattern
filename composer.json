@@ -6,8 +6,10 @@
         "psr-4": {
             "App\\": "src",
             "App\\Singleton\\": "src/singleton",
+            "App\\Iterator\\": "src/iterator",
             "Test\\": "tests",
-            "Test\\Singleton\\": "tests/singleton"
+            "Test\\Singleton\\": "tests/singleton",
+            "Test\\Iterator\\": "tests/iterator"
         }
     }
 }
