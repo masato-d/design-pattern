@@ -84,10 +84,5 @@ class DepartmentIteratorTest extends TestCase
     {
         $department = new DepartmentIterator('Test Department');
         $this->assertTrue(is_iterable($department));
-
-        $department->addEmployee($this->testEmployee);
-        foreach ($department as $employee) {
-            $this->assertEquals($this->testEmployee, $employee);
-        }
     }
 }
