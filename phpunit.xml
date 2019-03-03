@@ -6,5 +6,8 @@
     <testsuite name="iterator">
       <directory>tests/iterator</directory>
     </testsuite>
+    <testsuite name="TemplateMethod">
+      <directory>tests/TemplateMethod</directory>
+    </testsuite>
   </testsuites>
 </phpunit>
