@@ -1,10 +1,10 @@
 <phpunit bootstrap="vendor/autoload.php" colors="true">
   <testsuites>
-    <testsuite name="singleton">
-      <directory>tests/singleton</directory>
+    <testsuite name="Singleton">
+      <directory>tests/Singleton</directory>
     </testsuite>
-    <testsuite name="iterator">
-      <directory>tests/iterator</directory>
+    <testsuite name="Iterator">
+      <directory>tests/Iterator</directory>
     </testsuite>
     <testsuite name="TemplateMethod">
       <directory>tests/TemplateMethod</directory>
